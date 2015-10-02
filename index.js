@@ -41,7 +41,7 @@ while (!match) {
   address = privateKey.toAddress();
   if (strStartsWith(String(address),prefix)) {
 	match=true;
-        console.log(privateKey);
+        console.log(privateKey.toWIF());
 	console.log(new bitcore.PublicKey(privateKey));
         console.log(address);
 	var end_time=new Date().getTime();
