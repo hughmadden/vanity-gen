@@ -1,7 +1,7 @@
 {
   "name": "vanity-gen",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "description": "Generate vanity prefixes for Bitcoin public key addresses",
   "main": "index.js",
   "dependencies": {
